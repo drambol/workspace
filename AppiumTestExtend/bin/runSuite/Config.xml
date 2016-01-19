@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Config>
+    <Browser>Firefox</Browser>
+    <Chrome>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Chrome>
+    <IE>C:\Program Files (x86)\Internet Explorer\iexplore.exe</IE>
+    <URL>
+    	<BaseURL>http://www.spx.com/en/</BaseURL>
+    	<HomePage>http://www.spx.com/en/</HomePage>
+    	<BrowseByBrandPage>http://www.spx.com/en/products-and-services/browse-by-brand/</BrowseByBrandPage>
+    	<PowerTeamPage>http://www.spx.com/en/power-team/</PowerTeamPage>
+    	<OurCompanyPage>http://www.spx.com/en/our-company/</OurCompanyPage>
+    	<NewsAndEventsPage>http://www.spx.com/en/news-and-events/</NewsAndEventsPage>
+	</URL>
+</Config>

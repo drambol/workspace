@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Config>
+	<TestEnvironment>Stage</TestEnvironment>
+	<TestAccounts>
+		<Username>kenx2015@emc.com</Username>
+		<Password>test1234</Password>
+	</TestAccounts>
+    <iOS>null</iOS>
+    <Android>
+    	<ApkLocation>src\\apk</ApkLocation>
+    	<ApkName>Mozy.apk</ApkName>
+    	<platformName>Android</platformName>
+    	<deviceName>AVD_for_Galaxy_Nexus</deviceName>
+    	<app-package>com.mozy.mobile.android</app-package>
+    	<app-activity>com.mozy.mobile.android.activities.startup.FirstRun</app-activity>
+    	<url>http://127.0.0.1:4723/wd/hub</url>
+	</Android>
+</Config>

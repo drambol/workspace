@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<lectoratest>
+	<survey>0</survey>
+	<grade>1</grade>
+	<showresults>0</showresults>
+	<scoreonly>0</scoreonly>
+	<get>0</get>
+	<incvar>0</incvar>
+	<promptsuccess>1</promptsuccess>
+	<persist>0</persist>
+	<name>Final Assessment</name>
+	<subject>Test Results</subject>
+	<testtime>0</testtime>
+	<numrandom>0</numrandom>
+	<passinggrade>70</passinggrade>
+	<cancelfail>page437.html</cancelfail>
+	<passdone>page442.html</passdone>
+	<prevpage>page1680.html</prevpage>
+	<section>
+		<index>0</index>
+		<id>402</id>
+		<numrandom>0</numrandom>
+		<page>
+			<index>0</index>
+			<name>page1080.html</name>
+		</page>
+	</section>
+	<section>
+		<index>1</index>
+		<id>420</id>
+		<numrandom>0</numrandom>
+		<page>
+			<index>1</index>
+			<name>page1657.html</name>
+			<question>
+				<id>1669</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0010</var>
+				<text>Which of the following best describes actual steps in the
+					process when you call the Ethics &amp; Compliance HelpLine with a
+					concern or issue?</text>
+				<correctans>a. You will be asked to describe your concern/issue and
+					can choose whether to remain anonymous.</correctans>
+				<choices>a. You will be asked to describe your concern/issue and can
+					choose whether to remain anonymous.|b. In reporting a concern, you
+					will be advised that you cannot remain anonymous. |c. You will
+					immediately be given a case number and directed to a policy.|d. The
+					Ethics &amp; Investigations team will immediately schedule an
+					in-person meeting between you and all others involved to work
+					through the issue/concern.</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+		<page>
+			<index>2</index>
+			<name>page1635.html</name>
+			<question>
+				<id>1647</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0023</var>
+				<text>Sean is a senior manager leading a growing project. Maria is a
+					senior associate who was recently added to his expanding team. Sean
+					and Maria are from the same home town and had previously dated.
+					Working together has prompted a new close personal relationship.
+					According to the firm's Relationship Policy, what action is most
+					essential for their personal relationship to continue? </text>
+				<correctans>d. They must inform the engagement leader and HR and end
+					their reporting relationship.</correctans>
+				<choices>a. They must tell everyone on the engagement about their
+					close personal relationship.|b. The couple must continue to be
+					discreet as they begin to date again and keep their relationship
+					outside of the workplace.|c. Sean and Maria must ensure that there
+					are no perceptions of favoritism or objectivity.|d. They must
+					inform the engagement leader and HR and end their reporting
+					relationship.</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+		<page>
+			<index>3</index>
+			<name>page1613.html</name>
+			<question>
+				<id>1625</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0022</var>
+				<text>What resource provides specific guidance for:\r\u2022
+					collecting and using only the minimum amount of information
+					necessary for your work, \r\u2022 securing information and devices
+					when not in use, and \r\u2022 using only firm-managed equipment and
+					email accounts for work-related matters?\r</text>
+				<correctans>c. Information Protection Principles</correctans>
+				<choices>a. Global Code of Conduct|b. US Independence Policy|c.
+					Information Protection Principles|d. Insider Trading Policy
+				</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+		<page>
+			<index>4</index>
+			<name>page1591.html</name>
+			<question>
+				<id>1603</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0020</var>
+				<text>Which of the following are common tactics used by unauthorized
+					individuals, social engineers, to attempt to obtain
+					information?\rI. \u201CFollowing\u201D others on social media
+					sites\rII. Eavesdropping on conversations\rIII. Making threatening
+					comments on blog postings\rIV. Making fraudulent information
+					requests</text>
+				<correctans>b. II and IV only</correctans>
+				<choices>a. I and II only|b. II and IV only|c. III and IV only|d. I
+					and III only</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+		<page>
+			<index>5</index>
+			<name>page1569.html</name>
+			<question>
+				<id>1581</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0021</var>
+				<text>Which of the following entities under anti-corruption laws and
+					regulations would be considered a government client?</text>
+				<correctans>d. The World Bank</correctans>
+				<choices>a. Harvard University|b. The Bill and Melinda Gates
+					Foundation|c. American Association of Retired Persons (AARP)|d. The
+					World Bank</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+		<page>
+			<index>6</index>
+			<name>page1547.html</name>
+			<question>
+				<id>1559</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0019</var>
+				<text>John Smith is interested in developing a client relationship
+					with ABC Hospital Group in China. John would like to take the CEO
+					of the ABC Hospital Group out to lunch to discuss PwC's
+					capabilities. John knows that ABC Hospital Group is controlled by
+					the Chinese government, and therefore the CEO is considered a
+					Chinese government official. In preparation for the lunch meeting,
+					what should John do to make sure that he adheres to the appropriate
+					laws and regulations on interacting with foreign government
+					officials?</text>
+				<correctans>d. John should consult with the Ethics and Compliance
+					HelpLine.</correctans>
+				<choices>a. If the lunch does not exceed US$100, John does not need
+					to do anything.|b. If the CEO of ABC Hospital Group offers to pay
+					for lunch, John does not need to do anything.|c. John cannot take
+					the CEO of ABC Hospital Group to lunch because it is against firm
+					anti-corruption policies to interact with any government
+					official.|d. John should consult with the Ethics and Compliance
+					HelpLine.</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+		<page>
+			<index>7</index>
+			<name>page1525.html</name>
+			<question>
+				<id>1537</id>
+				<type>2</type>
+				<weight>1</weight>
+				<name>Question 1</name>
+				<var>VarQuestion_0018</var>
+				<text>PwC is pulling together a learning event for clients.
+					Attendees will get lunch and will get CPE credits. You are
+					interested in inviting your client who is an employee of a state
+					run university. What considerations should you make before inviting
+					your client to attend the learning event?</text>
+				<correctans>a. Since your client is a government employee,
+					attendance at this event may be prohibited by anti-corruption laws.
+				</correctans>
+				<choices>a. Since your client is a government employee, attendance
+					at this event may be prohibited by anti-corruption laws.|b. Even
+					though your client is a government employee, since the event is
+					just a learning event and CPE's will be awarded, anti-corruption
+					laws do not apply.|c. Since PwC does not charge clients for
+					attending learning events, anti-corruption laws do not apply.|d.
+					Since CPE credits have a fair market value your client can attend
+					the event but they may not be able to receive the CPE credits.
+				</choices>
+				<allowmult>0</allowmult>
+				<persist>0</persist>
+				<gradeindividual>0</gradeindividual>
+				<surveyquestion>0</surveyquestion>
+			</question>
+		</page>
+	</section>
+	<section>
+		<index>8</index>
+		<id>428</id>
+		<numrandom>0</numrandom>
+		<page>
+			<index>8</index>
+			<name>page429.html</name>
+		</page>
+		<page>
+			<index>9</index>
+			<name>page437.html</name>
+		</page>
+		<page>
+			<index>10</index>
+			<name>page442.html</name>
+		</page>
+		<page>
+			<index>11</index>
+			<name>page456.html</name>
+		</page>
+	</section>
+	<section>
+		<index>12</index>
+		<id>464</id>
+		<numrandom>0</numrandom>
+		<page>
+			<index>12</index>
+			<name>page465.html</name>
+		</page>
+		<page>
+			<index>13</index>
+			<name>page493.html</name>
+		</page>
+	</section>
+</lectoratest>

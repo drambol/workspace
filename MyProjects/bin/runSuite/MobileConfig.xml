@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Config>
+	<TestEnvironment>QA12</TestEnvironment>
+	<TestAccounts>
+		<DefaultAccount>kenx2015@emc.com</DefaultAccount>
+		<DefaultPassword>88888888</DefaultPassword>
+	</TestAccounts>
+    <iOS>null</iOS>
+    <Android>
+    	<ApkLocation>src\\apk</ApkLocation>
+    	<ApkName>Mozy.apk</ApkName>
+    	<AppVersion>1.6.1</AppVersion>
+    	<platformName>Android</platformName>
+    	<deviceName>AVD_for_Galaxy_Nexus_by_Google</deviceName>
+    	<appPackage>com.mozy.mobile.android</appPackage>
+    	<appActivity>com.mozy.mobile.android.activities.startup.FirstRun</appActivity>
+    	<url>http://127.0.0.1:4723/wd/hub</url>
+	</Android>
+	<Domains>
+		<Domain>
+			<DomainName>QA12</DomainName>
+			<Address>cas01.qa12h.mozyops.com</Address>
+			<Port>443</Port>
+			<TrustAll>True</TrustAll>
+			<Secret>fTrm2XLtwOGFqyIG</Secret>
+			<TestAccount>ken1020@emc.com</TestAccount>
+			<Password>88888888</Password>
+		</Domain>
+		<Domain>
+			<DomainName>Stage</DomainName>
+			<Address>mip.test.mozy.com</Address>
+			<Port></Port>
+			<TrustAll>True</TrustAll>
+			<Secret>NkIRTmbrwTC2hNr8</Secret>
+			<TestAccount>kenx2015@emc.com</TestAccount>
+			<Password>88888888</Password>
+		</Domain>
+	</Domains>
+</Config>

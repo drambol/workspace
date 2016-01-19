@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 攻击系武器 1a, 魔法系武器 1b --><!-- 上衣/套服 2a, 帽子2b, 手套2c, 鞋子2d, 披风2e, 裤子2f --><!-- 腰带3b, 耳环3c, 吊坠3d, 其它3a --><Equipments>
+	<Global>
+		<Equipment>
+		    <Name display="Yes" type="1a">外星人亡命剑</Name>
+		    <Attack base="127" display="Yes">127</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="22" display="Yes">22</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="1600" display="Yes">1600</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="7">7</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>MaxHP：+12%</PotenticalA>
+		    <PotenticalB>攻击力：+9%</PotenticalB>
+		    <PotenticalC>攻击时，无视怪物防御力的30%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="1a">外星人能量剑</Name>
+		    <Attack base="95" display="Yes">176</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="0" display="Yes">94</Strength>
+		    <Dexterity base="12" display="Yes">116</Dexterity>
+		    <Intelligence base="0" display="Yes">94</Intelligence>
+		    <Luck base="22" display="Yes">134</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">9</MaxUpgrade>
+		    <UpgradeRemains base="7">0</UpgradeRemains>
+		    <UpgradeSuccess>9</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>10</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>所有属性：+9%</PotenticalA>
+		    <PotenticalB>所有属性：+6%</PotenticalB>
+		    <PotenticalC>攻击力：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>1104</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="1b">青龙长杖</Name>
+		    <Attack base="105" display="Yes">135</Attack>
+		    <MagicAttack base="181" display="Yes">346</MagicAttack>
+		    <Strength base="0" display="Yes">0</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="2" display="Yes">4</Intelligence>
+		    <Luck base="2" display="Yes">3</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="9" display="No">11</MaxUpgrade>
+		    <UpgradeRemains base="9">0</UpgradeRemains>
+		    <UpgradeSuccess>11</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>10</Strengthen>
+		    <PotenticalLevel>S</PotenticalLevel>
+		    <PotenticalA>攻击时，无视怪物防御力的30%</PotenticalA>
+		    <PotenticalB>攻击时，无视怪物防御力的30%</PotenticalB>
+		    <PotenticalC>攻击BOSS时，伤害：+20%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="1a">狮心战斗弯刀</Name>
+		    <Attack base="137" display="Yes">137</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="35" display="Yes">35</Strength>
+		    <Dexterity base="20" display="Yes">20</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="100" display="Yes">100</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="8" display="No">8</MaxUpgrade>
+		    <UpgradeRemains base="8">8</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3a">狮心战斗护肩</Name>
+		    <Attack base="7" display="Yes">7</Attack>
+		    <MagicAttack base="7" display="Yes">7</MagicAttack>
+		    <Strength base="11" display="Yes">11</Strength>
+		    <Dexterity base="11" display="Yes">11</Dexterity>
+		    <Intelligence base="11" display="Yes">11</Intelligence>
+		    <Luck base="11" display="Yes">11</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="100" display="Yes">100</Defence>
+		    <MagicDefence base="100" display="Yes">100</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="1" display="No">1</MaxUpgrade>
+		    <UpgradeRemains base="1">1</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="2d">狮心战斗鞋</Name>
+		    <Attack base="1" display="Yes">1</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="15" display="Yes">15</Strength>
+		    <Dexterity base="15" display="Yes">15</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="30" display="Yes">30</Avoidance>
+		    <Move base="10" display="Yes">10</Move>
+		    <Jump base="7" display="Yes">7</Jump>
+		    <MaxUpgrade base="7" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="7">7</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="2a">狮心战斗锁子甲</Name>
+		    <Attack base="2" display="Yes">2</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="30" display="Yes">30</Strength>
+		    <Dexterity base="30" display="Yes">30</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="350" display="Yes">350</Defence>
+		    <MagicDefence base="100" display="Yes">100</MagicDefence>
+		    <Accuracy base="50" display="Yes">50</Accuracy>
+		    <Avoidance base="50" display="Yes">50</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="12" display="No">12</MaxUpgrade>
+		    <UpgradeRemains base="12">12</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="2c">狮心战斗护腕</Name>
+		    <Attack base="5" display="Yes">5</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="16" display="Yes">16</Strength>
+		    <Dexterity base="16" display="Yes">16</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="350" display="Yes">350</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="80" display="Yes">80</Defence>
+		    <MagicDefence base="20" display="Yes">20</MagicDefence>
+		    <Accuracy base="30" display="Yes">30</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="7">7</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="2e">狮心战斗披风</Name>
+		    <Attack base="1" display="Yes">1</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="7" display="Yes">7</Strength>
+		    <Dexterity base="7" display="Yes">7</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="200" display="Yes">200</Defence>
+		    <MagicDefence base="100" display="Yes">100</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="10" display="Yes">10</Move>
+		    <Jump base="5" display="Yes">5</Jump>
+		    <MaxUpgrade base="7" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="7">7</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="2b">狮心战斗头盔</Name>
+		    <Attack base="1" display="Yes">1</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="25" display="Yes">25</Strength>
+		    <Dexterity base="25" display="Yes">25</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="300" display="Yes">300</HP>
+		    <MP base="300" display="Yes">300</MP>
+		    <Defence base="325" display="Yes">325</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="200" display="Yes">200</Accuracy>
+		    <Avoidance base="100" display="Yes">100</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="10" display="No">10</MaxUpgrade>
+		    <UpgradeRemains base="10">10</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3b">旭日腰带</Name>
+		    <Attack base="2" display="Yes">19</Attack>
+		    <MagicAttack base="2" display="Yes">16</MagicAttack>
+		    <Strength base="10" display="Yes">25</Strength>
+		    <Dexterity base="10" display="Yes">22</Dexterity>
+		    <Intelligence base="10" display="Yes">28</Intelligence>
+		    <Luck base="10" display="Yes">27</Luck>
+		    <HP base="100" display="Yes">198</HP>
+		    <MP base="100" display="Yes">237</MP>
+		    <Defence base="110" display="Yes">264</Defence>
+		    <MagicDefence base="110" display="Yes">279</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">5</MaxUpgrade>
+		    <UpgradeRemains base="3">0</UpgradeRemains>
+		    <UpgradeSuccess>5</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>智力：+12%</PotenticalA>
+		    <PotenticalB>所有属性：+9%</PotenticalB>
+		    <PotenticalC>力量：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3b">旭日腰带</Name>
+		    <Attack base="2" display="Yes">2</Attack>
+		    <MagicAttack base="2" display="Yes">2</MagicAttack>
+		    <Strength base="10" display="Yes">10</Strength>
+		    <Dexterity base="10" display="Yes">10</Dexterity>
+		    <Intelligence base="10" display="Yes">10</Intelligence>
+		    <Luck base="10" display="Yes">10</Luck>
+		    <HP base="100" display="Yes">100</HP>
+		    <MP base="100" display="Yes">100</MP>
+		    <Defence base="110" display="Yes">110</Defence>
+		    <MagicDefence base="110" display="Yes">110</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">3</MaxUpgrade>
+		    <UpgradeRemains base="3">3</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3c">旭日耳环</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="4" display="Yes">30</Strength>
+		    <Dexterity base="4" display="Yes">4</Dexterity>
+		    <Intelligence base="4" display="Yes">4</Intelligence>
+		    <Luck base="4" display="Yes">7</Luck>
+		    <HP base="100" display="Yes">245</HP>
+		    <MP base="100" display="Yes">184</MP>
+		    <Defence base="45" display="Yes">48</Defence>
+		    <MagicDefence base="45" display="Yes">48</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>5</UpgradeSuccess>
+		    <UpgradeFail>2</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>3</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>力量：+12%</PotenticalA>
+		    <PotenticalB>HP恢复物品及恢复技能效率：+30%</PotenticalB>
+		    <PotenticalC>力量：+12%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3d">旭日吊坠</Name>
+		    <Attack base="2" display="Yes">26</Attack>
+		    <MagicAttack base="2" display="Yes">15</MagicAttack>
+		    <Strength base="16" display="Yes">42</Strength>
+		    <Dexterity base="16" display="Yes">44</Dexterity>
+		    <Intelligence base="16" display="Yes">44</Intelligence>
+		    <Luck base="16" display="Yes">39</Luck>
+		    <HP base="180" display="Yes">406</HP>
+		    <MP base="180" display="Yes">449</MP>
+		    <Defence base="185" display="Yes">334</Defence>
+		    <MagicDefence base="185" display="Yes">428</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="32" display="Yes">184</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="4" display="No">6</MaxUpgrade>
+		    <UpgradeRemains base="4">0</UpgradeRemains>
+		    <UpgradeSuccess>6</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>2</Strengthen>
+		    <PotenticalLevel>S</PotenticalLevel>
+		    <PotenticalA>力量：+9%</PotenticalA>
+		    <PotenticalB>力量：+9%</PotenticalB>
+		    <PotenticalC>MaxMP：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3e">旭日戒指</Name>
+		    <Attack base="4" display="Yes">5</Attack>
+		    <MagicAttack base="4" display="Yes">5</MagicAttack>
+		    <Strength base="6" display="Yes">19</Strength>
+		    <Dexterity base="6" display="Yes">6</Dexterity>
+		    <Intelligence base="6" display="Yes">8</Intelligence>
+		    <Luck base="6" display="Yes">8</Luck>
+		    <HP base="100" display="Yes">172</HP>
+		    <MP base="100" display="Yes">148</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="0" display="No">2</MaxUpgrade>
+		    <UpgradeRemains base="0">0</UpgradeRemains>
+		    <UpgradeSuccess>2</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>3</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>力量：+6%</PotenticalA>
+		    <PotenticalB>回避值：+48</PotenticalB>
+		    <PotenticalC>敏捷：+3%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3f">8周年点点红</Name>
+		    <Attack base="5" display="Yes">33</Attack>
+		    <MagicAttack base="5" display="Yes">35</MagicAttack>
+		    <Strength base="5" display="Yes">46</Strength>
+		    <Dexterity base="5" display="Yes">42</Dexterity>
+		    <Intelligence base="5" display="Yes">40</Intelligence>
+		    <Luck base="5" display="Yes">34</Luck>
+		    <HP base="50" display="Yes">439</HP>
+		    <MP base="50" display="Yes">481</MP>
+		    <Defence base="5" display="Yes">145</Defence>
+		    <MagicDefence base="5" display="Yes">162</MagicDefence>
+		    <Accuracy base="20" display="Yes">133</Accuracy>
+		    <Avoidance base="20" display="Yes">250</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">5</MaxUpgrade>
+		    <UpgradeRemains base="3">0</UpgradeRemains>
+		    <UpgradeSuccess>5</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>10</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>所有属性：+9%</PotenticalA>
+		    <PotenticalB>力量：+9%</PotenticalB>
+		    <PotenticalC>力量：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>3187</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3g">龙眼镜</Name>
+		    <Attack base="0" display="Yes">17</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="1" display="Yes">14</Strength>
+		    <Dexterity base="1" display="Yes">24</Dexterity>
+		    <Intelligence base="1" display="Yes">25</Intelligence>
+		    <Luck base="1" display="Yes">20</Luck>
+		    <HP base="50" display="Yes">185</HP>
+		    <MP base="50" display="Yes">292</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>7</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>力量：+12%</PotenticalA>
+		    <PotenticalB>力量：+9%</PotenticalB>
+		    <PotenticalC>MaxMP：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+	</Global>
+	<Warrior>
+		<Equipment>
+			<Name display="Yes" type="1a">布莱克缤双手剑</Name>
+		    <Attack base="151" display="Yes">330</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="42" display="Yes">88</Strength>
+		    <Dexterity base="25" display="Yes">54</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="102" display="Yes">132</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="10" display="No">12</MaxUpgrade>
+		    <UpgradeRemains base="10">0</UpgradeRemains>
+		    <UpgradeSuccess>12</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>10</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>攻击BOSS时，伤害：+35%</PotenticalA>
+		    <PotenticalB>力量：+9%</PotenticalB>
+		    <PotenticalC>力量：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>1329</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2a">黑龙纹战甲</Name>
+		    <Attack base="0" display="Yes">29</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="6" display="Yes">57</Strength>
+		    <Dexterity base="2" display="Yes">42</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="107" display="Yes">404</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="3" display="Yes">242</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">9</MaxUpgrade>
+		    <UpgradeRemains base="7">0</UpgradeRemains>
+		    <UpgradeSuccess>9</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>10</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>力量：+12%</PotenticalA>
+		    <PotenticalB>力量：+9%</PotenticalB>
+		    <PotenticalC>所有属性：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>8141</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2f">黑龙纹裤</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="4" display="Yes">30</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="88" display="Yes">213</Defence>
+		    <MagicDefence base="0" display="Yes">62</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="7">0</UpgradeRemains>
+		    <UpgradeSuccess>6</UpgradeSuccess>
+		    <UpgradeFail>1</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>S</PotenticalLevel>
+		    <PotenticalA>可以使用&lt;好用的神圣之火&gt;技能</PotenticalA>
+		    <PotenticalB>受到攻击时，有20%的概率无视38的伤害</PotenticalB>
+		    <PotenticalC>MaxHP：+6%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>90</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2d">龙纹战靴</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="5" display="Yes">12</Strength>
+		    <Dexterity base="2" display="Yes">2</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="58" display="Yes">60</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="2" display="Yes">2</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">5</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>3</UpgradeSuccess>
+		    <UpgradeFail>2</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>力量：+6%</PotenticalA>
+		    <PotenticalB>力量：+12</PotenticalB>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>14</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2b">进阶贝伦头盔</Name>
+		    <Attack base="1" display="Yes">1</Attack>
+		    <MagicAttack base="1" display="Yes">1</MagicAttack>
+		    <Strength base="23" display="Yes">23</Strength>
+		    <Dexterity base="23" display="Yes">23</Dexterity>
+		    <Intelligence base="23" display="Yes">23</Intelligence>
+		    <Luck base="23" display="Yes">23</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="350" display="Yes">350</Defence>
+		    <MagicDefence base="350" display="Yes">350</MagicDefence>
+		    <Accuracy base="200" display="Yes">200</Accuracy>
+		    <Avoidance base="200" display="Yes">200</Avoidance>
+		    <Move base="5" display="Yes">5</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="10" display="No">10</MaxUpgrade>
+		    <UpgradeRemains base="10">10</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>B</PotenticalLevel>
+		    <PotenticalA>MaxHP：+3%</PotenticalA>
+		    <PotenticalB>MaxMP：+60</PotenticalB>
+		    <PotenticalC>MaxMP：+60</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>86</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2e">金魂披风</Name>
+		    <Attack base="4" display="Yes">4</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="0" display="Yes">0</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="140" display="Yes">140</HP>
+		    <MP base="140" display="Yes">140</MP>
+		    <Defence base="52" display="Yes">52</Defence>
+		    <MagicDefence base="56" display="Yes">56</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">5</MaxUpgrade>
+		    <UpgradeRemains base="5">5</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>所有属性：+3%</PotenticalA>
+		    <PotenticalB>运气：+3%</PotenticalB>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>31</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2c">次元手套</Name>
+		    <Attack base="8" display="Yes">8</Attack>
+		    <MagicAttack base="8" display="Yes">8</MagicAttack>
+		    <Strength base="12" display="Yes">12</Strength>
+		    <Dexterity base="12" display="Yes">12</Dexterity>
+		    <Intelligence base="12" display="Yes">12</Intelligence>
+		    <Luck base="12" display="Yes">12</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="120" display="Yes">120</Defence>
+		    <MagicDefence base="120" display="Yes">120</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="7">7</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="3b">坚韧棕色扣带</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="6" display="Yes">7</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="60" display="Yes">65</HP>
+		    <MP base="60" display="Yes">65</MP>
+		    <Defence base="70" display="Yes">72</Defence>
+		    <MagicDefence base="70" display="Yes">72</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">4</MaxUpgrade>
+		    <UpgradeRemains base="3">0</UpgradeRemains>
+		    <UpgradeSuccess>0</UpgradeSuccess>
+		    <UpgradeFail>4</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>S</PotenticalLevel>
+		    <PotenticalA>所有属性：+6%</PotenticalA>
+		    <PotenticalB>力量：+6%</PotenticalB>
+		    <PotenticalC>MaxHP：+6%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>52</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="3d">资深十字吊坠</Name>
+		    <Attack base="1" display="Yes">6</Attack>
+		    <MagicAttack base="1" display="Yes">0</MagicAttack>
+		    <Strength base="5" display="Yes">0</Strength>
+		    <Dexterity base="5" display="Yes">0</Dexterity>
+		    <Intelligence base="5" display="Yes">7</Intelligence>
+		    <Luck base="5" display="Yes">1</Luck>
+		    <HP base="70" display="Yes">109</HP>
+		    <MP base="70" display="Yes">68</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="4" display="No">4</MaxUpgrade>
+		    <UpgradeRemains base="4">0</UpgradeRemains>
+		    <UpgradeSuccess>3</UpgradeSuccess>
+		    <UpgradeFail>1</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>S</PotenticalLevel>
+		    <PotenticalA>回避值：+9%</PotenticalA>
+		    <PotenticalB>力量：+6%</PotenticalB>
+		    <PotenticalC>力量：+6%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>122</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="3c">勇气耳环</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="0" display="Yes">8</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="33" display="Yes">36</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="82" display="Yes">84</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">6</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>4</UpgradeSuccess>
+		    <UpgradeFail>2</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>力量：+6%</PotenticalA>
+		    <PotenticalB>力量：+6%</PotenticalB>
+		    <PotenticalC>MaxHP：+120</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>239</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3f">8周年点点红</Name>
+		    <Attack base="5" display="Yes">24</Attack>
+		    <MagicAttack base="5" display="Yes">19</MagicAttack>
+		    <Strength base="5" display="Yes">23</Strength>
+		    <Dexterity base="5" display="Yes">27</Dexterity>
+		    <Intelligence base="5" display="Yes">23</Intelligence>
+		    <Luck base="5" display="Yes">23</Luck>
+		    <HP base="50" display="Yes">169</HP>
+		    <MP base="50" display="Yes">153</MP>
+		    <Defence base="5" display="Yes">166</Defence>
+		    <MagicDefence base="5" display="Yes">77</MagicDefence>
+		    <Accuracy base="20" display="Yes">92</Accuracy>
+		    <Avoidance base="20" display="Yes">166</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">5</MaxUpgrade>
+		    <UpgradeRemains base="3">0</UpgradeRemains>
+		    <UpgradeSuccess>5</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>3</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>力量：+12%</PotenticalA>
+		    <PotenticalB>运气：+12%</PotenticalB>
+		    <PotenticalC>力量：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+		<Equipment>
+		    <Name display="Yes" type="3g">龙眼镜</Name>
+		    <Attack base="0" display="Yes">17</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="1" display="Yes">14</Strength>
+		    <Dexterity base="1" display="Yes">24</Dexterity>
+		    <Intelligence base="1" display="Yes">25</Intelligence>
+		    <Luck base="1" display="Yes">20</Luck>
+		    <HP base="50" display="Yes">185</HP>
+		    <MP base="50" display="Yes">292</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">7</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>7</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>SS</PotenticalLevel>
+		    <PotenticalA>力量：+12%</PotenticalA>
+		    <PotenticalB>力量：+9%</PotenticalB>
+		    <PotenticalC>MaxMP：+9%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>0</Spent>
+		</Equipment>
+	</Warrior>
+	<Xenon>
+		<Equipment>
+			<Name display="Yes" type="1a">永恒能量剑</Name>
+		    <Attack base="84" display="Yes">128</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="0" display="Yes">44</Strength>
+		    <Dexterity base="0" display="Yes">44</Dexterity>
+		    <Intelligence base="0" display="Yes">44</Intelligence>
+		    <Luck base="0" display="Yes">44</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="0" display="Yes">0</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">8</MaxUpgrade>
+		    <UpgradeRemains base="7">0</UpgradeRemains>
+		    <UpgradeSuccess>7</UpgradeSuccess>
+		    <UpgradeFail>1</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>3</Strengthen>
+		    <PotenticalLevel>S</PotenticalLevel>
+		    <PotenticalA>防御力：+9%</PotenticalA>
+		    <PotenticalB>攻击BOSS时，伤害：+30%</PotenticalB>
+		    <PotenticalC>攻击时，有3%的概率恢复53的HP</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>191</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2a">公正连身衣</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="8" display="Yes">18</Strength>
+		    <Dexterity base="8" display="Yes">18</Dexterity>
+		    <Intelligence base="8" display="Yes">9</Intelligence>
+		    <Luck base="8" display="Yes">22</Luck>
+		    <HP base="50" display="Yes">54</HP>
+		    <MP base="50" display="Yes">54</MP>
+		    <Defence base="135" display="Yes">281</Defence>
+		    <MagicDefence base="135" display="Yes">210</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="10" display="No">11</MaxUpgrade>
+		    <UpgradeRemains base="10">0</UpgradeRemains>
+		    <UpgradeSuccess>7</UpgradeSuccess>
+		    <UpgradeFail>4</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>敏捷：+6%</PotenticalA>
+		    <PotenticalB>MaxMP：+120</PotenticalB>
+		    <PotenticalC>运气：+3%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>26</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2d">公正鞋</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="5" display="Yes">10</Strength>
+		    <Dexterity base="5" display="Yes">10</Dexterity>
+		    <Intelligence base="5" display="Yes">6</Intelligence>
+		    <Luck base="5" display="Yes">9</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="50" display="Yes">113</Defence>
+		    <MagicDefence base="50" display="Yes">82</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="3" display="Yes">4</Move>
+		    <Jump base="3" display="Yes">4</Jump>
+		    <MaxUpgrade base="5" display="No">6</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>3</UpgradeSuccess>
+		    <UpgradeFail>3</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>运气：+6%</PotenticalA>
+		    <PotenticalB>命中率：+3%</PotenticalB>
+		    <PotenticalC>命中率：+3%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>27</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2b">尖兵帽</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="12" display="Yes">22</Strength>
+		    <Dexterity base="12" display="Yes">22</Dexterity>
+		    <Intelligence base="12" display="Yes">13</Intelligence>
+		    <Luck base="12" display="Yes">18</Luck>
+		    <HP base="200" display="Yes">214</HP>
+		    <MP base="200" display="Yes">214</MP>
+		    <Defence base="50" display="Yes">154</Defence>
+		    <MagicDefence base="50" display="Yes">103</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="10" display="No">10</MaxUpgrade>
+		    <UpgradeRemains base="10">0</UpgradeRemains>
+		    <UpgradeSuccess>5</UpgradeSuccess>
+		    <UpgradeFail>5</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>受到攻击时，有30%的概率无视51的伤害</PotenticalA>
+		    <PotenticalB>所有属性：+3%</PotenticalB>
+		    <PotenticalC>魔法防御力：+3%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>38</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2e">赫里希安精锐飞侠披风</Name>
+		    <Attack base="10" display="Yes">12</Attack>
+		    <MagicAttack base="10" display="Yes">15</MagicAttack>
+		    <Strength base="20" display="Yes">52</Strength>
+		    <Dexterity base="20" display="Yes">55</Dexterity>
+		    <Intelligence base="20" display="Yes">51</Intelligence>
+		    <Luck base="20" display="Yes">51</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="40" display="Yes">64</Defence>
+		    <MagicDefence base="40" display="Yes">78</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="1" display="No">2</MaxUpgrade>
+		    <UpgradeRemains base="1">0</UpgradeRemains>
+		    <UpgradeSuccess>1</UpgradeSuccess>
+		    <UpgradeFail>1</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>5</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>所有属性：+3%</PotenticalA>
+		    <PotenticalB>回避值：+3%</PotenticalB>
+		    <PotenticalC>回避值：+48</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>44</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="2c">次元手套</Name>
+		    <Attack base="8" display="Yes">18</Attack>
+		    <MagicAttack base="8" display="Yes">8</MagicAttack>
+		    <Strength base="12" display="Yes">12</Strength>
+		    <Dexterity base="12" display="Yes">12</Dexterity>
+		    <Intelligence base="12" display="Yes">12</Intelligence>
+		    <Luck base="12" display="Yes">12</Luck>
+		    <HP base="0" display="Yes">0</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="120" display="Yes">120</Defence>
+		    <MagicDefence base="120" display="Yes">120</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="7" display="No">8</MaxUpgrade>
+		    <UpgradeRemains base="7">0</UpgradeRemains>
+		    <UpgradeSuccess>5</UpgradeSuccess>
+		    <UpgradeFail>3</UpgradeFail>
+		    <GoldenHammer>2</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>力量：+6%</PotenticalA>
+		    <PotenticalB>防御力：+3%</PotenticalB>
+		    <PotenticalC/>
+		    <Lucky>0</Lucky>
+		    <Spent>41</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="3b">外星人碎片腰带</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="15" display="Yes">21</Strength>
+		    <Dexterity base="15" display="Yes">21</Dexterity>
+		    <Intelligence base="15" display="Yes">17</Intelligence>
+		    <Luck base="15" display="Yes">21</Luck>
+		    <HP base="0" display="Yes">65</HP>
+		    <MP base="0" display="Yes">33</MP>
+		    <Defence base="150" display="Yes">154</Defence>
+		    <MagicDefence base="150" display="Yes">154</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="30" display="Yes">31</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">4</MaxUpgrade>
+		    <UpgradeRemains base="3">0</UpgradeRemains>
+		    <UpgradeSuccess>3</UpgradeSuccess>
+		    <UpgradeFail>1</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>命中率：+6%</PotenticalA>
+		    <PotenticalB>敏捷：+3%</PotenticalB>
+		    <PotenticalC>力量：+3%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>27</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="3d">外星人碎片项链</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="25" display="Yes">31</Strength>
+		    <Dexterity base="25" display="Yes">31</Dexterity>
+		    <Intelligence base="25" display="Yes">27</Intelligence>
+		    <Luck base="25" display="Yes">31</Luck>
+		    <HP base="0" display="Yes">65</HP>
+		    <MP base="0" display="Yes">33</MP>
+		    <Defence base="100" display="Yes">103</Defence>
+		    <MagicDefence base="100" display="Yes">103</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="25" display="Yes">26</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="3" display="No">3</MaxUpgrade>
+		    <UpgradeRemains base="3">0</UpgradeRemains>
+		    <UpgradeSuccess>3</UpgradeSuccess>
+		    <UpgradeFail>0</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>运气：+6%</PotenticalA>
+		    <PotenticalB>魔法防御力：+3%</PotenticalB>
+		    <PotenticalC>MaxHP：+120</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>16</Spent>
+		</Equipment>
+		<Equipment>
+			<Name display="Yes" type="3c">外星人碎片耳环</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="20" display="Yes">26</Strength>
+		    <Dexterity base="20" display="Yes">26</Dexterity>
+		    <Intelligence base="20" display="Yes">22</Intelligence>
+		    <Luck base="20" display="Yes">26</Luck>
+		    <HP base="0" display="Yes">65</HP>
+		    <MP base="60" display="Yes">97</MP>
+		    <Defence base="45" display="Yes">46</Defence>
+		    <MagicDefence base="45" display="Yes">46</MagicDefence>
+		    <Accuracy base="5" display="Yes">6</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="5" display="No">6</MaxUpgrade>
+		    <UpgradeRemains base="5">0</UpgradeRemains>
+		    <UpgradeSuccess>3</UpgradeSuccess>
+		    <UpgradeFail>3</UpgradeFail>
+		    <GoldenHammer>1</GoldenHammer>
+		    <Strengthen>1</Strengthen>
+		    <PotenticalLevel>A</PotenticalLevel>
+		    <PotenticalA>运气：+6%</PotenticalA>
+		    <PotenticalB>每4秒恢复24的HP</PotenticalB>
+		    <PotenticalC>力量：+6%</PotenticalC>
+		    <Lucky>0</Lucky>
+		    <Spent>28</Spent>
+		</Equipment>
+	</Xenon>
+	<Temp>
+		<Equipment>
+			<Name display="Yes" type="2a">垫卷装备</Name>
+		    <Attack base="0" display="Yes">0</Attack>
+		    <MagicAttack base="0" display="Yes">0</MagicAttack>
+		    <Strength base="0" display="Yes">0</Strength>
+		    <Dexterity base="0" display="Yes">0</Dexterity>
+		    <Intelligence base="0" display="Yes">0</Intelligence>
+		    <Luck base="0" display="Yes">0</Luck>
+		    <HP base="33" display="Yes">531</HP>
+		    <MP base="0" display="Yes">0</MP>
+		    <Defence base="0" display="Yes">0</Defence>
+		    <MagicDefence base="82" display="Yes">635</MagicDefence>
+		    <Accuracy base="0" display="Yes">0</Accuracy>
+		    <Avoidance base="0" display="Yes">0</Avoidance>
+		    <Move base="0" display="Yes">0</Move>
+		    <Jump base="0" display="Yes">0</Jump>
+		    <MaxUpgrade base="999999" display="No">999999</MaxUpgrade>
+		    <UpgradeRemains base="999999">999969</UpgradeRemains>
+		    <UpgradeSuccess>19</UpgradeSuccess>
+		    <UpgradeFail>11</UpgradeFail>
+		    <GoldenHammer>0</GoldenHammer>
+		    <Strengthen>0</Strengthen>
+		    <PotenticalLevel>C</PotenticalLevel>
+		    <PotenticalA/>
+		    <PotenticalB/>
+		    <PotenticalC/>
+		    <Lucky>10</Lucky>
+		    <Spent>452</Spent>
+		</Equipment>
+	</Temp>
+</Equipments>

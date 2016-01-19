@@ -1,0 +1,206 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.17|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npGoogleUpdate3.dll|$
+C:\Program Files (x86)\Google\Update\1.3.26.9\npGoogleUpdate3.dll|$
+1.3.26.9|$
+1423055359958|0|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+npAliSecCtrl.dll|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npAliSecCtrl.dll|$
+2.0.1.0|$
+1417661768000|0|0|0|$
+Alipay Security Control|$
+Alipay Security Control 3|$
+1
+0|application/x-alisecctrl-plugin|npAliSecCtrl.dll|*|$
+npAlipaydhc.dll|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npAlipaydhc.dll|$
+1.0.6.0|$
+1417661766000|0|0|0|$
+Alipay Internet Health Control|$
+Alipay Security Payment Client Suit|$
+1
+0|application/x-aliinethealth-plugin|npAliInetHealth.dll|*|$
+npalicdo.dll|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npalicdo.dll|$
+1.0.0.4|$
+1417661764000|0|0|0|$
+npalicdo|$
+npalicdo plugin|$
+1
+0|application/npalicdo|npalicdo|dll|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
+11.0.10.32|$
+1417588280000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.10|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
+11.0.10.32|$
+1417588280000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.10|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+npwangwang.dll|$
+C:\Program Files (x86)\AliWangWang\8.00.40C\npwangwang.dll|$
+1.0.0.6|$
+1415700162000|0|0|0|$
+npwangwang|$
+AliWangWang Plug-In For Firefox and Netscape|$
+1
+0|application/ww-plugin|npwangwang|dll|$
+npAliSSOLogin.dll|$
+C:\Program Files (x86)\AliWangWang\8.00.40C\npAliSSOLogin.dll|$
+1.0.0.1|$
+1415700140000|0|0|0|$
+npAliSSOLogin Plugin|$
+AliSSOLogin plugin|$
+1
+0|application/npalissologin|AliSSOLogin|AliSSOLogin|$
+npalidcp.dll|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npalidcp.dll|$
+1.0.0.1|$
+1404391014000|0|0|0|$
+npalidcp|$
+Alipay webmod control|$
+1
+0|application/alidcp|npalidcp| |$
+npaliedit.dll|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npaliedit.dll|$
+1.3.0.2|$
+1404391014000|0|0|0|$
+npaliedit|$
+Alipay security control|$
+1
+0|application/aliedit|npaliedit| |$
+npVMwareClientSupportPlugin-5-5-0.dll|$
+C:\Program Files (x86)\VMware\Client Integration Plug-in 5.5\npVMwareClientSupportPlugin-5-5-0.dll|$
+5.5.0.41167|$
+1402599304000|0|0|0|$
+The VMware Client Support Plug-in|$
+VMware Client Support Plug-in|$
+1
+0|application/x-vmware-client-support-5-5-0|VMwareClientSupportPlugin||$
+np-vmware-vmrc.dll|$
+C:\Program Files (x86)\Common Files\VMware\VMware Remote Console Plug-in 5.5\Firefox\np-vmware-vmrc.dll|$
+5.5.0.33711|$
+1402586142000|0|0|0|$
+VMware Remote Console Plug-in|$
+VMware Remote Console Plug-in|$
+1
+0|application/x-vmware-remote-console-2012|VMware Remote Console Plug-in||$
+npvsth.dll|$
+C:\Program Files (x86)\Common Files\Voltage Security\npvsth.dll|$
+6.2.0.1599|$
+1397194262000|0|0|0|$
+Voltage Authentication Token Plugin|$
+Voltage Encryption|$
+1
+0|application/x-vs-authtoken|Voltage Authentication Token File|vat|$
+npitunes.dll|$
+C:\Program Files (x86)\iTunes\Mozilla Plugins\npitunes.dll|$
+1.0.1.1|$
+1392671536000|0|0|0|$
+iTunes Detector Plug-in|$
+iTunes Application Detector|$
+1
+0|application/itunes-plugin|This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.||$
+npctrl.dll|$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.30214.0\npctrl.dll|$
+5.1.30214.0|$
+1392346662000|0|0|0|$
+5.1.30214.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+npIntelWebAPIIPT.dll|$
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT\npIntelWebAPIIPT.dll|$
+4.0.5.0|$
+1383317167000|0|0|0|$
+Intel web components for Intel® Identity Protection Technology|$
+Intel® Identity Protection Technology|$
+1
+0|application/x-vnd-intel-webapi-ipt-4.0.5|npIntelWebAPIipt-3-5||$
+npIntelWebAPIUpdater.dll|$
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT\npIntelWebAPIUpdater.dll|$
+4.0.5.0|$
+1383317167000|0|0|0|$
+Intel web components updater - Installs and updates the Intel web components|$
+Intel® Identity Protection Technology|$
+1
+0|application/x-vnd-intel-webapi-updater|npIntelWebAPIupdater-2-0|intel_webapi_updater-2-0|$
+NPCMBEdit.dll|$
+C:\windows\system32\NPCMBEdit.dll|$
+1.0.0.2|$
+1340763624000|0|0|0|$
+China Merchants Bank Edit|$
+CMBEdit Plugin|$
+1
+0|application/x-cmbedit|cmbedit||$
+NPComBrg701.dll|$
+C:\windows\system32\itruscert\NPComBrg701.dll|$
+1.0.2011.701|$
+1311580152000|0|0|0|$
+iTrusPTA&XEnroll hwPTA,IEnroll,UKeyInstalls for FireFox,version=1.0.0.2|$
+iTrusChina iTrusPTA,XEnroll,iEnroll,hwPTA,UKeyInstalls Firefox Plugin|$
+6
+0|application/pta.itruspta.version.1|PTA|*|$
+1|application/cenroll.cenroll.version.1|CEnroll||$
+2|application/itrusenroll.certenroll.version.1|IEnroll||$
+3|application/hwpta.itrushwpta|hwPTA||$
+4|application/hwwdkey.installwdkey|hwWDkey||$
+5|application/hwepass2001.installepass2001|HwEpass2001||$
+NPSPWRAP.DLL|$
+C:\PROGRA~2\MICROS~3\Office14\NPSPWRAP.DLL|$
+14.0.4761.1000|$
+1269476558000|0|0|0|$
+The plug-in allows you to open and edit files using Microsoft Office applications|$
+Microsoft Office 2010|$
+1
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+NPAUTHZ.DLL|$
+C:\PROGRA~2\MICROS~3\Office14\NPAUTHZ.DLL|$
+14.0.4730.1010|$
+1263087738000|0|0|0|$
+Office Authorization plug-in for NPAPI browsers|$
+Microsoft Office 2010|$
+1
+0|application/x-msoffice14|14.0.4730.1010|*|$
+
+[INVALID]
+c:\Program Files (x86)\Microsoft Silverlight\5.1.30214.0\npctrlui.dll|$
+1392346662000|$
+C:\windows\system32\npmproxy.dll|$
+1247534171654|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npalicdo64.dll|$
+1417661764000|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npAlipaydhc64.dll|$
+1417661766000|$
+C:\Program Files (x86)\alipay\aliedit\5.0.0.3597\npAliSecCtrl64.dll|$
+1417661768000|$

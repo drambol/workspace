@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<suite name="Suite" parallel="false">  
+    <test name="MyTest">  
+        <classes>  
+            <class name="mobileTest.AppiumTest" />
+            <class name="mobileTest.VerifyVersion" />
+        </classes>  
+    </test>  
+</suite>
