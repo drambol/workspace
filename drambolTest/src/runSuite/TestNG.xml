@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="runSuite" verbose="1" >
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="utility.file.ScreenshotListener"/>
+  </listeners>
+  <test name="Regression">
+    <classes>
+      <!--class name="test.AELoginTest"/-->     
+      <!--class name="test.SGLoginTest"/-->
+      <class name="test.TestBaiDu"/> 
+      <!--class name="test.DrambolTest"/-->
+      <!--class name="test.CloseDown"/-->
+      <!--class name="packOne.DemoOne"/-->
+      <!--class name="packTwo.DemoTwo"/-->
+    </classes>
+  </test>
+</suite>
