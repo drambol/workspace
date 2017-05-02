@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<project name="DemoTest" default="runSuite" basedir=".">
+	<property file="build.properties" />
+
+	<tstamp>
+		<format property="startTime" pattern="yyyyMMdd-HHmmss"/>
+	</tstamp>
+
+	<!-- task definition -->
+	<taskdef resource="testngtasks" classpath="lib/testng-6.9.9.jar" />
+
+	<path id="dependencyClassPath">
+		<fileset dir="lib">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<path id="runtime">
+		<!-- the generated jar -->
+		<fileset dir="ant_target">
+			<include name="${BUILD_JAR}" />
+		</fileset>
+		<!-- all the required jars -->
+		<path refid="dependencyClassPath"/>
+	</path>
+
+	<target name="cleanReportPath">
+		<echo>Automation Test Start</echo>
+		<delete dir="${REPORT}/${startTime}" />
+		<mkdir dir="${REPORT}/${startTime}" />
+	</target>
+
+	<target name="compileSource">
+		<!-- compile folder -->
+		<delete dir="ant_target"/>
+		<mkdir dir="ant_target/classes"/>
+		<!-- copy resources to target folder -->
+		<copy todir="ant_target/classes">
+			<fileset dir="src"/>
+		</copy>
+		<!-- compile *.java -->
+		<javac srcdir="src" destdir="ant_target/classes" target="1.7" includeantruntime="on">
+			<classpath refid="dependencyClassPath" />
+		</javac>
+	</target>
+
+	<target name="buildJar">
+		<jar destfile="ant_target/${BUILD_JAR}">
+			<fileset dir="ant_target/classes"/>
+		</jar>
+	</target>
+
+	<target name="runScript" description="Run the suite script">
+		<testng classpathref="runtime" outputDir="${REPORT}/${startTime}">
+			<xmlfileset dir="ant_target/classes/runSuite" includes="${SUITE_FILE}" />
+		</testng>
+	</target>
+
+	<target name="zipReport">
+		<zip destfile="${REPORT}/${startTime}.zip" basedir="${REPORT}/${startTime}"/>
+	</target>
+
+	<target name="mailReport">
+		<mail mailhost="smtp.163.com" 
+			  mailport="25" 
+			  ssl="false" 
+			  charset="utf-8" 
+			  subject="Automation Result ${startTime}"
+			  tolist="${MAIL_TO_LIST}"
+			  encoding="mime" 
+			  messagemimetype="text/html"
+			  user="eric621621@163.com"
+			  password="mailLog046"
+			  from="eric621621@163.com"
+			  messagefile="${REPORT}/${startTime}/emailable-report.html">
+
+			<attachments>
+				<fileset dir="${REPORT}">
+					<!--Lotus Notes does not support attachment?-->
+					<include name=""/>
+					<!--${startTime}.zip-->
+				</fileset>
+			</attachments>
+
+		</mail>
+	</target>
+
+	<target name="cleanOver">
+		<echo>Delete runtime folder</echo>
+		<delete dir="ant_target"/>
+	</target>
+
+	<target name="runSuite" description="Automation process">
+		<antcall target="cleanReportPath"/>
+		<antcall target="compileSource" />
+		<antcall target="buildJar" />
+		<antcall target="runScript" />
+		<!--antcall target="zipReport"/-->
+		<!--antcall target="mailReport"/-->
+		<antcall target="cleanOver" />
+		<echo>Automation Test Done</echo>
+	</target>
+</project>
