@@ -38,3 +38,10 @@ if ENV['chrome']
  Capybara::Poltergeist::Driver.new(app, options)
  end
 end
+
+Before do
+  #page.driver.browser.manage.window.resize_to(1366, 768)
+  #page.driver.browser.manage.window.maximize
+  window = Capybara.current_session.driver.browser.manage.window
+  window.maximize # width, height
+end
