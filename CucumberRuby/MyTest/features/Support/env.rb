@@ -4,7 +4,8 @@ require 'capybara/poltergeist'
 require 'selenium-webdriver'
 require 'capybara/angular'
 require 'rspec/expectations'
-
+# How to run test case?
+# In terminal, under project folder, input "cucumber features --tags @drambol --format pretty --format html -o report.html chrome=true"
 if ENV['chrome']
  Capybara.default_driver = :chrome
  Capybara.register_driver :chrome do |app|
