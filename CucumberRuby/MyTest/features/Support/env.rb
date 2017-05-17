@@ -2,6 +2,8 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'capybara/poltergeist'
 require 'selenium-webdriver'
+require 'capybara/angular'
+require 'rspec/expectations'
 
 if ENV['chrome']
  Capybara.default_driver = :chrome
@@ -38,6 +40,12 @@ if ENV['chrome']
  Capybara::Poltergeist::Driver.new(app, options)
  end
 end
+
+#set wait time for loading pages
+include Capybara::Angular::DSL
+Capybara.default_selector = :xpath
+Capybara.default_max_wait_time = 20
+World(RSpec::Matchers)
 
 Before do
   #page.driver.browser.manage.window.resize_to(1366, 768)
