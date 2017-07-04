@@ -9,3 +9,7 @@ Then(/^I login with "(.*?)" and "(.*?)"$/) do |username, password|
 	#@page.load
 	@page.login_with(username, password)
 end
+
+Then(/^take screenshoot$/) do
+	@page.save_screenshot('screenshot.png')
+end
