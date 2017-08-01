@@ -4,8 +4,9 @@ require 'capybara/poltergeist'
 require 'selenium-webdriver'
 require 'capybara/angular'
 require 'rspec/expectations'
-# How to run test case?
-# In terminal, under project folder, input "cucumber features --tags @drambol --format pretty --format html -o report.html chrome=true"
+require 'capybara-screenshot/cucumber'
+require 'date'
+
 if ENV['chrome']
  Capybara.default_driver = :chrome
  Capybara.register_driver :chrome do |app|
@@ -53,4 +54,12 @@ Before do
   #page.driver.browser.manage.window.maximize
   window = Capybara.current_session.driver.browser.manage.window
   window.maximize # width, height
+end
+
+After do
+#   Capybara::Screenshot doesn’t know that :chrome is a Selenium driver. Either call your driver :selenium and it’ll use this code to take screenshots, or define a similar driver:
+#	Capybara::Screenshot.register_driver(:chrome) do |driver, path|
+#  	driver.browser.save_screenshot('C:/Grace/Automation/CucumberRuby/MyTest/GraceTestScreenshot.png')
+	time = Time.now.strftime("%Y%m%d%H%M%S")
+  	page.save_screenshot "screenshots/#{time}.png"
 end
