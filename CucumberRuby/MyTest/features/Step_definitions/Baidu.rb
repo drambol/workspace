@@ -1,3 +1,5 @@
+require_relative '../../utility/takeScreenShot.rb'
+
 Given(/^I am on Baidu Page$/) do
 	@page = BaiduSearchPage.new
 	@page.load
@@ -10,3 +12,7 @@ end
 Then(/^Click submit$/) do
 	@page.click_submit
 end	
+
+And(/^Save screenshot with "(.*?)"$/) do |screenShotName|
+	take_screenshot(screenShotName)
+end
