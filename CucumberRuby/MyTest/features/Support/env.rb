@@ -56,6 +56,7 @@ Before do
   window.maximize # width, height
 end
 
+#take screenshot after each feature
 After do
 #   Capybara::Screenshot doesn’t know that :chrome is a Selenium driver. Either call your driver :selenium and it’ll use this code to take screenshots, or define a similar driver:
 #	Capybara::Screenshot.register_driver(:chrome) do |driver, path|
