@@ -1,4 +1,4 @@
-require_relative '../../utility/takeScreenShot.rb'
+require_relative '../../utility/TakeScreenShot.rb'
 
 Given(/^I am on Baidu Page$/) do
 	@page = BaiduSearchPage.new
