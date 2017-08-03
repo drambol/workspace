@@ -1,7 +1,7 @@
 # Encoding: utf-8
 source 'http://rubygems.org'
 
-group :test do
+group :development, :test do
   gem 'cucumber'
   gem 'rspec-expectations'
   gem 'poltergeist'
@@ -38,5 +38,11 @@ group :test do
   gem 'capybara-rails'
   gem 'site_prism'
   gem 'phantomjs'
+  gem 'parseexcel'
+#  gem 'activesupport'
+#  gem 'activesrecord'
+#  gem 'ibm_db'
+  gem 'rubyXL'
+#  gem 'roo', "1.9.5"
 end
 
