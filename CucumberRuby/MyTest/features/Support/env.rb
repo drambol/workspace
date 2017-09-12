@@ -10,6 +10,7 @@ require 'date'
 if ENV['chrome']
  Capybara.default_driver = :chrome
  Capybara.register_driver :chrome do |app|
+ Selenium::WebDriver::Chrome.driver_path = 'C:\Grace\Useful Matierials\mine\Selenium Webdriver\chromedriver.exe'
  options = {
  :js_errors => true,
  :timeout => 360,
