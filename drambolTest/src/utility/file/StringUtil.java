@@ -6,10 +6,12 @@ import org.openqa.selenium.By;
 
 public class StringUtil {
 
+	// 以百度为例，xpathStr = By.id: su
+	// args[0] = By. , args[1] = su
 	public static String getXpathId(By by) {
 		String xpathStr = by.toString();
 		String idStr = "";
-		if (xpathStr.indexOf("id: ") > 0) {
+		if (xpathStr.indexOf("id: ") > 0) {//int indexOf(String str): 返回指定字符在字符串中第一次出现处的索引，如果此字符串中没有这样的字符，则返回 -1。
 			String[] args = xpathStr.split("id: ");
 			idStr = args[1];
 		} else if (xpathStr.indexOf("@id='") > 0) {
