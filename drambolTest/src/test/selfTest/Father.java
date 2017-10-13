@@ -1,4 +1,4 @@
-package test;
+package test.selfTest;
 
 public class Father {
 	 public String v="Father";
