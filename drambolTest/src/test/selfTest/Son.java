@@ -1,4 +1,4 @@
-package test;
+package test.selfTest;
 
 public class Son extends Father{
 	 public String v="Son";
