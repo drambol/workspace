@@ -1,4 +1,4 @@
-package test;
+package test.selfTest;
 
 public class Test6 {
 	 private int number;
