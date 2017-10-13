@@ -1,4 +1,4 @@
-package test;
+package test.bmw;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
