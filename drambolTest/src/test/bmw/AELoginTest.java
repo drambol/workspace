@@ -1,4 +1,4 @@
-package test;
+package test.bmw;
 
 import org.testng.annotations.Test;
 
