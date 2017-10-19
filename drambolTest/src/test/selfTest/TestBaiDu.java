@@ -12,6 +12,8 @@ import baseline.AutoContext;
 import baseline.MyDriver;
 import utility.calc.MyAssert;
 
+// Enable listener if this is for independent test case. For group test case screenshot, please use TestNG.xml
+// @Listeners(ScreenshotListener.class)
 public class TestBaiDu extends BaseCaseTemplate {
 	@Test
 	public void testBaiDu() throws SQLException, IOException {
