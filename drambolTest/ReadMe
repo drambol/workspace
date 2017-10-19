@@ -1,8 +1,8 @@
 This workspace is drambol's testNG framework including:
-1. Screenshot after each test or screenshot on each failure
-2. Re-run test on failer tests
+1. Screenshot after each test or screenshot on each failure using listener
+2. Re-run test on failer tests using listener
 3. Using excel and properties file for test data maintenance
-4. Can generate report using testNG or self-written report
+4. Can generate report using testNG(using listener) or self-written report
 5. XmlParse to binding xml files
 6. sftp/ftp connection
 7. Database connection
