@@ -37,7 +37,7 @@ public class ExcelUtil {
 	public static String getData(int x, int y) {
 		try {
 			Workbook workbook = Workbook.getWorkbook(file);
-			Sheet sheet = workbook.getSheet(GetEnvironment.getCountry());
+			Sheet sheet = workbook.getSheet(PropertiesUtil.getCountry());
 			// get row x and column y
 			Cell cell = sheet.getCell(y, x);
 			return cell.getContents();
@@ -52,7 +52,7 @@ public class ExcelUtil {
 	public static String getData(String str) {
 		try {
 			Workbook workbook = Workbook.getWorkbook(file);
-			Sheet sheet = workbook.getSheet(GetEnvironment.getCountry());
+			Sheet sheet = workbook.getSheet(PropertiesUtil.getCountry());
 			// Loop over the sheet
 			for (int j = 0; j < sheet.getColumns(); j++) {
 				for (int i = 0; i < sheet.getRows(); i++) {
