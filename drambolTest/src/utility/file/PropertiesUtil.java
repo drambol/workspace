@@ -11,18 +11,26 @@ import java.util.Properties;
  * @Purpose Get country for Automation testing
  */
 
-public class GetEnvironment {
+public class PropertiesUtil {
 
 	public static String getCountry() {
+
+		String file = System.getProperty("user.dir") + "\\test-data\\env.properties";
+		String str = "Country";
+		
+		return propertyParse(file, str);
+	}
+	
+	public static String propertyParse(String file, String str) {
 
 		Properties prop = new Properties();
 		InputStream input = null;
 
 		try {
 
-			input = new FileInputStream(System.getProperty("user.dir") + "\\test-data\\env.properties");
+			input = new FileInputStream(file);
 			prop.load(input);
-			String country = prop.getProperty("Country");
+			String country = prop.getProperty(str);
 			return country;
 			
 		} catch (IOException ex) {
