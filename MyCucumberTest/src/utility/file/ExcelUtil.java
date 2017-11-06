@@ -17,6 +17,7 @@ import jxl.read.biff.BiffException;
 public class ExcelUtil {
 	
 	public final static File file = new File(System.getProperty("user.dir") + "\\test-data\\data.xls");
+	public final static File file2 = new File(System.getProperty("user.dir") + "\\test-data\\xpath.xls");
 	
 	
 	public static String getDataBySheetName(String sheetName, int x, int y){
@@ -38,7 +39,7 @@ public class ExcelUtil {
 	public static String getData(int x, int y){
 		try {
 			Workbook workbook = Workbook.getWorkbook(file);
-			Sheet sheet = workbook.getSheet(GetEnvironment.getCountry());
+			Sheet sheet = workbook.getSheet(PropertiesUtil.getCountry());
 			//get row x and column y
 			Cell cell = sheet.getCell(y, x);
 			return cell.getContents();
@@ -53,7 +54,29 @@ public class ExcelUtil {
 	public static String getData(String str) {
 		try {
 			Workbook workbook = Workbook.getWorkbook(file);
-			Sheet sheet = workbook.getSheet(GetEnvironment.getCountry());
+			Sheet sheet = workbook.getSheet(PropertiesUtil.getCountry());
+			// Loop over the sheet
+			for (int j = 0; j < sheet.getColumns(); j++) {
+				for (int i = 0; i < sheet.getRows(); i++) {
+					Cell cell = sheet.getCell(j, i);
+					if (str.equals(cell.getContents())) {
+						Cell targetCell = sheet.getCell(j + 1, i);
+						return targetCell.getContents();
+					}
+				}
+			}
+		} catch (BiffException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+
+		}
+		return null;
+	}
+	
+	public static String getxPathData(String str) {
+		try {
+			Workbook workbook = Workbook.getWorkbook(file2);
+			Sheet sheet = workbook.getSheet(PropertiesUtil.getCountry());
 			// Loop over the sheet
 			for (int j = 0; j < sheet.getColumns(); j++) {
 				for (int i = 0; i < sheet.getRows(); i++) {
