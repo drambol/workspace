@@ -70,6 +70,29 @@ public class ExcelUtil {
 		}
 		return null;
 	}
+	
+	// get work book by file name
+		public static String getData(File file, String str) {
+			try {
+				Workbook workbook = Workbook.getWorkbook(file);
+				Sheet sheet = workbook.getSheet(PropertiesUtil.getCountry());
+				// Loop over the sheet
+				for (int j = 0; j < sheet.getColumns(); j++) {
+					for (int i = 0; i < sheet.getRows(); i++) {
+						Cell cell = sheet.getCell(j, i);
+						if (str.equals(cell.getContents())) {
+							Cell targetCell = sheet.getCell(j + 1, i);
+							return targetCell.getContents();
+						}
+					}
+				}
+			} catch (BiffException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+
+			}
+			return null;
+		}
 
 	public static String getHSSFData(String sheetName, int x, int y) {
 		try {
