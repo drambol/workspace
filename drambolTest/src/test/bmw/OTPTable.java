@@ -25,6 +25,18 @@ public class OTPTable {
 	}
 
 	public static String retrieveOTP() {
+		
+		//open new tab
+//		JavascriptExecutor jse = (JavascriptExecutor) (newDriver);
+//		// open new tab for getting OTP
+//		String url = url;
+//		jse.executeScript("window.open(arguments[0])", url);
+//
+//		// get all the opened tabs and switch to OTP tab
+//		ArrayList<String> tabs = new ArrayList<String>(newDriver.getWindowHandles());
+//		newDriver.switchTo().window(tabs.get(1));
+		
+		//open new chrome
 		OTPTable.setUpBrowser();
 		Select environment = new Select(newDriver.findMyWebElement(By.xpath("//select[@name='env']")));
 		Select country = new Select(newDriver.findMyWebElement(By.xpath("//select[@name='country']")));
