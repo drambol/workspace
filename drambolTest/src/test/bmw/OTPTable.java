@@ -1,5 +1,8 @@
 package test.bmw;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -33,10 +36,22 @@ public class OTPTable {
 		go.click();
 		MyTable table = new MyTable(By.xpath("//table[2]"), newDriver);
 		String str = table.cells(2, 3).getText();
-		str = str.split("\\(OTP\\) is ")[1].split(" ")[0];
 		System.out.println(str);
+//		str = str.split("\\(OTP\\) is ")[1].split(" ")[0];
+//		System.out.println(str);
+		
+		String regex = "([0-9]{6})\\s";
+
+		Pattern pattern = Pattern.compile(regex);
+		Matcher match = pattern.matcher(str);
+		String OTPValue = "";
+		while (match.find()) {
+			OTPValue = match.group(0).trim();
+		}
+		
+		System.out.println(OTPValue);	
 		OTPTable.closeDownBrowser();
-		return str;
+		return OTPValue;
 	}
 
 	private static void closeDownBrowser() {
