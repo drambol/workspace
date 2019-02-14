@@ -8,3 +8,8 @@ This workspace is drambol's testNG framework including:
 7. Database connection
 8. Take full webpage screenshot using external jar(FullScreenshot.java)
 9. Scroll page to a defined element and then take screenshot(ScrollPage.java)
+10.显式等待:自定义判断条件
+WebDriverWait wait = new WebDriverWait(driver, 3);
+wait.until(new ExpectedCondition<Boolean>() {
+public Boolean apply(WebDriver driver) {
+return !driver.findElement(By.xpath("//*[@id='kw']")).getAttribute("class").contains("x-form-invalid-field");}});
